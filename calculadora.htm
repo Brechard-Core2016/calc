@@ -12,6 +12,7 @@
   function mas()   { calcular(op); op = "+"; }
   function menos() { calcular(op); op = "-"; }
   function x2() { var acc = cajetin.value;  cajetin.value = acc*acc}
+  function x3() { var acc = cajetin.value;  cajetin.value = acc*acc*acc}
   function sqrt() { var acc = cajetin.value;  cajetin.value = Math.sqrt(acc);}
   function igual () { calcular(op); num = 0; op = ""}
 
@@ -28,6 +29,7 @@
   <button onClick="mas()">+</button>
   <button onClick="menos()">-</button>
   <button onClick="x2()">x²</button>
+  <button onClick="x3()">x³</button>
   <button onClick="sqrt()">sqrt()</button>
   <button onClick="igual()">=</button>
 </body>
